@@ -39,21 +39,7 @@ export const ProductPage = () => {
                             }
                         </div>
                     </div>
-                    {/* <div className="img-item">
-                                <a href="#" data-id="2">
-                                    <img src="https://fadzrinmadu.github.io/hosted-assets/product-detail-page-design-with-image-slider-html-css-and-javascript/shoe_2.jpg" alt="shoe image" />
-                                </a>
-                            </div>
-                            <div className="img-item">
-                                <a href="#" data-id="3">
-                                    <img src="https://fadzrinmadu.github.io/hosted-assets/product-detail-page-design-with-image-slider-html-css-and-javascript/shoe_3.jpg" alt="shoe image" />
-                                </a>
-                            </div>
-                            <div className="img-item">
-                                <a href="#" data-id="4">
-                                    <img src="https://fadzrinmadu.github.io/hosted-assets/product-detail-page-design-with-image-slider-html-css-and-javascript/shoe_4.jpg" alt="shoe image" />
-                                </a>
-                            </div> */}
+                   
                     <div className="product-content">
                         <h2 className="product-title">{singleProductData?.title}</h2>
                         <a href="#" className="product-link">visit {singleProductData?.brand} store</a>

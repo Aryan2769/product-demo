@@ -22,7 +22,6 @@ export const getAllProducts = createAsyncThunk('product/getAllProducts', async (
 export const getData = createAsyncThunk('product/getData', async (id) => {
     try {
         const response = await getSingleProduct(id)
-        // console.log(response);
         if (response?.status === 200) {
             return response?.data
         }
@@ -34,7 +33,6 @@ export const getData = createAsyncThunk('product/getData', async (id) => {
 export const UserLogin = createAsyncThunk('product/UserLogin', async (values) => {
     try {
         const response = await UserLoginAPI(values)
-        // console.log(response);
         if (response && response.status === 200) {
             localStorage.setItem('token', response.data.token)
             return response.data
