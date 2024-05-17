@@ -11,7 +11,6 @@ const Products = () => {
     const loading = useSelector((state) => state.product.loading)
     const data = useSelector((state) => state.product.data)
     let token = localStorage.getItem('token')
-    // const token = localStorage.getItem('token')
     useEffect(() => {
         dispatch(getAllProducts())
     }, [])
