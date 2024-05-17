@@ -7,7 +7,6 @@ const LoginPage = () => {
     let navigate = useNavigate()
     let dispatch = useDispatch()
     let loginData = useSelector((state) => state.product?.loginData)
-    // console.log(loginData);
     let formik = useFormik({
         initialValues: {
             username: '',
